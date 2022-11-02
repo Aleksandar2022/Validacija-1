@@ -15,29 +15,38 @@ function validirajEmail(email) {
    * Proverava da li postoji nesto upisano u input polje
    */
     if (emailVrednost<1) {
-        document.write("Molim vas uneste mail");
+      paragrafPrintEmail.innerHTML = `Molim vas unesite email`;
     }else {
         if (validirajEmail(emailVrednost)) {
             paragrafPrintEmail.innerHTML = `Vaš email ${emailVrednost} JE validan email.`;
   //Menja boju ispisa da li je uslov ispunjen ili nije
             document.getElementById('emailPrint').style.color = "Green";
           } else {
-            paragrafPrintEmail.innerHTML = `Vaš email ${emailVrednost} NIJE validan email.`;
+            paragrafPrintEmail.innerHTML = `Vaš email ${emailVrednost} NIJE validan email`;
             document.getElementById('emailPrint').style.color = "Red";
             }
     }
    
 
  }
- //Funkcija koja prilikom klika na Validaciju brise tekst u Input polju
+ function resetujInput() {
+  document.getElementById('email').value = "";
+  document.getElementById("emailPrint").innerText= "";
+ }
+
+
+ /**
+  * 
+  *  //Funkcija koja prilikom klika na Validaciju brise tekst u Input polju
  let btnClear = document.querySelector('button');
 let inputs = document.querySelectorAll('input');
 btnClear.addEventListener('click', () => {
     inputs.forEach(input =>  input.value = '');
 });
 
-
- /**
+  * 
+  * 
+  * 
    Brise ispis iz paragrafa 
  
  function DeleteInput() {
