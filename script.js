@@ -26,9 +26,9 @@ function validirajEmail(email) {
             document.getElementById('emailPrint').style.color = "Red";
             }
     }
-   
-
+  
  }
+ //Funkcija za resetovanje vrednosti u Input polje i brisanje paragrafa
  function resetujInput() {
   document.getElementById('email').value = "";
   document.getElementById("emailPrint").innerText= "";
