@@ -1,0 +1,29 @@
+#submit{
+    padding-left: center;
+    margin: auto;
+    background-color: aquamarine;
+    height: 30px;
+    width:80px; 
+    cursor:pointer;
+}
+#ponovi{
+    margin-top: 15px;
+    background-color: rgba(127, 168, 255, 0.952);
+    height: 30px;
+    width:80px; 
+    cursor:pointer;
+}
+#validiraj{
+    margin-left: 15px;
+    background-color: chartreuse;
+    height: 30px;
+    width:80px; 
+    cursor:pointer
+}
+#ponovi1{
+    margin-top: 15px;
+    background-color: rgba(253, 255, 127, 0.952);
+    height: 30px;
+    width:80px; 
+    cursor:pointer
+}
