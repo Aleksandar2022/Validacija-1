@@ -1,0 +1,16 @@
+.btn btn-primary active{
+    padding-left: center;
+    margin: auto;
+    background-color: rgb(255, 185, 127);
+    height: 30px;
+    width:80px; 
+    cursor:pointer;
+}
+.btn btn-primary{
+    margin-top: 15px;
+    background-color:antiquewhite;
+    height: 30px;
+    width:80px; 
+    cursor:pointer;
+}
+a:link { text-decoration: none; }
